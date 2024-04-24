@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">zhanahope</string>
+    <string name="spinner_prompt">Категории</string>
+    <string name="button_on_main_page">На главную</string>
+    <string name="search_main_hint">Поиск...</string>
+    <string-array name="categories_array">
+        <item>Игрушки</item>
+        <item>Канцелярские принадлежности</item>
+        <item>Одежда и обувь</item>
+        <item>Книги</item>
+        <item>Спортивные принадлежности</item>
+        <item>Техника</item>
+        <item>Гигиенические средства</item>
+        <item>Еда</item>
+    </string-array>
+    <string name="map_content_description">Карта Google</string>
+</resources>

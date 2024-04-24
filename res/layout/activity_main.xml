@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Zhana Hope"
+            android:textSize="50sp"
+            />
+
+        <ImageView
+            android:id="@+id/imageViewPhoto1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/top_icon" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@id/imageViewPhoto1"
+            android:layout_toRightOf="@id/imageViewPhoto1"
+            android:backgroundTint="@color/white"
+            android:text="Открыть топ нуждаемостей детдомов"
+            android:textAlignment="textStart"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageViewPhoto1_right"
+            android:layout_width="25dp"
+            android:layout_marginTop="65dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/textViewTitle"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/arrow" />
+
+        <ImageView
+            android:id="@+id/imageViewPhoto2"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_below="@id/imageViewPhoto1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/search" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/button1"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/imageViewPhoto2"
+            android:layout_toRightOf="@id/imageViewPhoto2"
+            android:backgroundTint="@color/white"
+            android:text="Открыть поиск по детдомам"
+            android:textAlignment="textStart"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageViewPhoto2_right"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/button1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/arrow" />
+
+        <ImageView
+            android:id="@+id/imageViewPhoto3"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_below="@id/imageViewPhoto2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/map" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/button2"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/imageViewPhoto2"
+            android:layout_toRightOf="@id/imageViewPhoto2"
+            android:backgroundTint="@color/white"
+            android:text="Открыть поиск по детдомам"
+            android:textAlignment="textStart"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageViewPhoto3_right"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/imageViewPhoto2"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/arrow" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="Вместе мы можем сделать мир лучше!"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="Помогите детдомам!"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="Подари частичку добра!"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
